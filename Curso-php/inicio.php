@@ -21,6 +21,6 @@ las etiquetas que estan aqui abajo -->
     <!-- Para llamar el valor de una variable que esta guardada en nuestro
     codigo php es necesario las etiquetas que abren el codigo php y dentro
     de ellas pasarle la variable que deseamos que se muestre en nuestro HTML -->
-    <h1>Mi apellido es <?php echo $apellido; ?> </h1>    
+    <h1>Mi apellido es <?php echo $apellido; ?> </h1>
 </body>
 </html>

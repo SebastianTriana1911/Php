@@ -14,7 +14,7 @@ class Camion extends Automotor{
 
         // Se llama el contructor de la Superclase con la palabra reservada parent 
         parent::__construct($marca, $modelo, $precio);
-        
+
         $this-> num_ejes = $num_ejes;
         $this-> cap_carg = $cap_carg;
     }
@@ -22,7 +22,7 @@ class Camion extends Automotor{
     public function get_num_ejes(){
         return $this->num_ejes;
     }
-    
+
     public function get_cap_carga(){
         return $this->cap_carg;
     }

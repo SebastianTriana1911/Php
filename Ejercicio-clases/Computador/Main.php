@@ -44,7 +44,7 @@ if ($mi_laptop -> get_tactil() == True){
     echo 'Es tactil: Si' . '<br>';
 }
 elseif ($mi_laptop -> get_tactil() == False){
-    echo 'Es tactil: No' . '<br>';    
+    echo 'Es tactil: No' . '<br>';
 }
 echo 'La potencia de la bateria es de: ' . $mi_laptop -> get_pot_bateria() . '<br>';
 echo '------------------------------------------ <br> <br> <br>';
@@ -73,7 +73,7 @@ if ($mi_desktop -> get_ups() == True){
     echo 'UPS: Si' . '<br>';
 }
 elseif ($mi_desktop -> get_ups() == False){
-    echo 'UPS: No' . '<br>';    
+    echo 'UPS: No' . '<br>';
 }
 echo '------------------------------------------ <br> <br> <br>';
 
@@ -83,4 +83,5 @@ echo '------------------------------------------ <br>';
 echo 'Estos son los metodos estaticos de la clase Computador <br>';
 echo Computador::mostrar_contador() . '<br>';
 echo Computador::mostrar_fecha();
+
 ?>

@@ -6,11 +6,11 @@ declare(strict_types=1);
 
 //Crear superclase automotor
 class Automotor{
-    
+
     private string $marca;
     private string $modelo;
     private int $precio;
-    
+
     public function __construct(string $marca, string $modelo, int $precio){
         $this->marca = $marca;
         $this->modelo = $modelo;
