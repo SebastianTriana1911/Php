@@ -41,8 +41,4 @@ class ComputadorLaptop extends Computador{
 
 }
 
-// Instancia de la clase
-$mi_laptop = new ComputadorLaptop ('Microsoft', 16, 'Ram', 'SSD', '2TB', 'Windows10', 'Office365', 'intel i7', 4, 1, 2.5);
-echo $mi_laptop -> get_tactil();
-
 ?>

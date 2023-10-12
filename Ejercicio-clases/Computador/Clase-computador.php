@@ -125,11 +125,4 @@ class Computador {
 
 }
 
-// Instancias de la clase Computador
-// $mi_computador = new Computador ('Microsoft', 16, 'Ram', 'SSD', '2TB', 'Windows10', 'Office365', 'intel i7', 4);
-// $mi_computador2 = new Computador ('Microsoft', 16, 'Ram', 'SSD', '2TB', 'Windows10', 'Office365', 'intel i7', 4);
-
-// // Se hace la llamada a los metodos estaticos por medio de la clase que los contiene
-// echo Computador::mostrar_fecha(); 
-// echo Computador::mostrar_contador();
 ?>
