@@ -11,7 +11,7 @@
         <input type="number" name="numero1" value="" placeholder="Ingrese el numero 1"> <br> <br>
         <input type="number" name="numero2" value="" placeholder="Ingrese el numero 2"> <br> <br>
         <select name="operacion" id="operacion">
-            <option>Sumar</option>
+            <option name=suma >Sumar</option>
             <option>Restar</option>
             <option>Multiplicar</option>
             <option>Dividir</option>
