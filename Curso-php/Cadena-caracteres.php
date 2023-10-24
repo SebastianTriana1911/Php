@@ -64,5 +64,34 @@ echo str_starts_with ($cadena2,"Hola") ? "Se encontro" : "No se encontro";
 
 echo str_ends_with ($cadena2,"mundo") ? "Se encontro" : "No se encontro";
 
+//------------------------------------------------------------------------
+
+// strtolower(variable): Esta funcion convierte toda la cadena de texto en
+// minuscula
+
+echo strtolower($cadena2);
+
+//------------------------------------------------------------------------
+
+// strtoupper(variable): Esta funcion convierte toda la cadena de texto en
+// mayuscula
+
+echo strtoupper($cadena2);
+
+//------------------------------------------------------------------------
+
+// ucfirst(variable): Esta funcion pone la primera letra de la cadena de una
+// cadena de texto en mayuscula
+
+echo ucfirst($cadena2);
+
+//-------------------------------------------------------------------------
+
+// ucwords(variable): Esta funcion convierte la primera letra de cada palabra en
+// mayuscula dentro de una cadena de texto
+
+echo ucwords($cadena2);
+
+//-------------------------------------------------------------------------
 
 ?>
