@@ -1,6 +1,6 @@
 <?php
 // Se importa el archivo que contiene la clase padre Computador
-require_once ('Clase-computador.php');
+require_once ('Clase_computador.php');
 
 // Se crea una clase ComputadorLaptop que sera heredara atributos y metodos de la clase Computador
 class ComputadorLaptop extends Computador{

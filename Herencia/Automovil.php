@@ -1,6 +1,6 @@
 <?php
 // Se importa el archivo Clase-automotor.php
-require_once('Clase-automotor.php');
+require_once('Automotor.php');
 
 // Extends es un atributo que se utiliza cuando una clase es herencia de otra, pues asi hace dicha referencia
 class Automovil extends Automotor{

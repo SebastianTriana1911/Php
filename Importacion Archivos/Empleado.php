@@ -5,6 +5,7 @@ class Empleado{
     // desde la clase que lo contiene o las clases que lo heredan
     protected $nombre;
     protected $fechaNacimiento;
+    
     // El metodo static en los atributos hace referencia a que dicho atributo que lo
     // contenga no hara parte de la instancia de un objeto pero si es un atributo 
     // unico de la tabla padre

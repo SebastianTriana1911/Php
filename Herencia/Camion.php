@@ -1,6 +1,6 @@
 <?php
 // Se importa el archivo que contiene la clase padre Automotor
-require_once('Clase-automotor.php');
+require_once('Automotor.php');
 
 // Se crea la clase Camion que es subclase de Automotor
 class Camion extends Automotor{

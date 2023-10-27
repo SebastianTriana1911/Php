@@ -1,7 +1,7 @@
 <?php
 
 // Se importa la clase Computador
-require_once('Clase-computador.php');
+require_once('Clase_computador.php');
 
 // Instancia de la clase Computador
 $mi_computador = new Computador ('Microsoft', 16, 'Ram', 'SSD', '2TB', 'Windows10', 'Office365', 'intel i7', 4);
@@ -23,7 +23,7 @@ echo '------------------------------------------ <br> <br> <br>';
 
 
 // Se importa la clase Laptop que es subclase de la superclase Computador
-require_once('Clase-laptop.php');
+require_once('Clase_laptop.php');
 
 // Instancia de la clase ComputadorLaptop
 $mi_laptop = new ComputadorLaptop ('Microsoft', 16, 'Ram', 'SSD', '2TB', 'Windows10', 'Office365', 'intel i7', 4, 0, 2.5);
@@ -52,7 +52,7 @@ echo '------------------------------------------ <br> <br> <br>';
 
 
 // Se importa la clase Desktop que es subclase de la superclase Computador
-require_once('Clase-desktop.php');
+require_once('Clase_desktop.php');
 
 // Instancia de la clase Computador
 $mi_desktop = new ComputadorDesktop ('Microsoft', 16, 'Ram', 'SSD', '2TB', 'Windows10', 'Office365', 'intel i7', 4, 1);

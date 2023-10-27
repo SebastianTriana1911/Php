@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Formulario de operaciones con seleccion multiple</h1>
-    <form action="Seleccion-multiple.php" method="POST"> 
+    <form action="match.php" method="POST"> 
         <input type="number" name="numero1" value="" placeholder="Ingrese el numero 1"> <br> <br>
         <input type="number" name="numero2" value="" placeholder="Ingrese el numero 2"> <br> <br>
         <select name="operacion" id="operacion">

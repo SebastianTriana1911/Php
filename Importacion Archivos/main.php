@@ -8,7 +8,7 @@
 // include_once() importa de manera opcional una sola vez el archivo
 
 // require() importa obligatoriamente le archivo que se le pase
-require('Clase-empleado.php');
+require('Empleado.php');
 
 //Creando la instancia de Empleado
 $empleado1 = new Empleado('Juan', '25-3-2000');
